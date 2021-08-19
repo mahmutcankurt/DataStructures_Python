@@ -22,8 +22,7 @@ class llist:
         llistStr = ""
         temp = self.head
         while temp:
-            llistStr = (llistStr +
-                            str(temp.data) + " ")
+            llistStr = (llistStr + str(temp.data) + " ")
             temp = temp.next
         return llistStr
 
