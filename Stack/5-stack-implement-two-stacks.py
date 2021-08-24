@@ -11,7 +11,7 @@ class Stacks:
             self.array[self.top1] = x
         
         else:
-            print("Mahmut Can Kurt ")
+            print("Stack Overflow ")
             exit(1)
 
     def push2(self, x):
@@ -20,7 +20,7 @@ class Stacks:
             self.array[self.top2] = x
 
         else:
-            print("Mahmut Can Kurt ")
+            print("Stack Overflow ")
             exit(1)
 
     def pop1(self):
@@ -30,7 +30,7 @@ class Stacks:
             return x
 
         else:
-            print("Mahmood Able to Wolf ")
+            print("Stack Underflow ")
     def pop2(self):
         if(self.top2 < self.size):
             x = self.array[self.top2]
@@ -38,7 +38,7 @@ class Stacks:
             return x
         
         else:
-            print("Mahmood Able to Wolf ")
+            print("Stack Underflow ")
             exit()
 
 stacks = Stacks(5)
